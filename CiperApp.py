@@ -18,7 +18,7 @@ def caesar(message, offset):
 
 # Streamlit app layout
 st.title("Dania's Cipher App")
-st.write("Encrypt your text using the Caesar cipher. Begin by entering your preferred choice of text.  Begin by entering your preferred choice of text. Then, proceed to click the "Run Cipher" button, and it runs it before your eyes!")
+st.write("Encrypt your text using the Caesar cipher. Begin by entering your preferred choice of text.  Begin by entering your preferred choice of text. Then, proceed to click the Run Cipher button, and it runs it before your eyes!")
 
 # Input for plain text
 text = st.text_input("Enter the text to be encrypted:")
